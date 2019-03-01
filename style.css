@@ -1,0 +1,147 @@
+
+/* HEADER */
+
+header
+{
+	background: cyan;
+	height: 100%;
+}
+#logo
+{
+	float:left;
+
+}
+#logo img
+{
+	border-radius: 100%;
+	height: 90px;
+	width: 90px;
+	margin-top: 20px;
+	margin-left: 15px;
+
+}
+}
+header #logo caption
+{
+	color: white;
+}	
+header .menu
+{
+	float: right;
+
+	color: white;
+	margin-top: 10px;
+
+
+}
+
+ #menu .menu ul li 
+{	list-style: none;
+	text-decoration: none;
+	margin-left: 7px;
+	display: inline-block;
+	color: white;
+	font-weight:bold;
+	font-family: sans-serif,tahoma,arial;
+
+}
+header #menu
+{
+	margin-right: 40px;
+	margin-bottom: 70px;
+	/*padding-bottom: 40px;*/
+}
+
+
+/* SECTION */
+section
+{
+	height: 500px;
+	width: 100%
+	border:1px solid green;
+	border-radius: 9px;
+	opacity: 0.7;
+
+	background-image:url("images/diaporama-cargo.jpg");
+	-webkit-animation-name:diapo2;
+	-webkit-animation-duration:6s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+
+	background-image:url("images/diaporama-cargo.jpg.jpg");
+	-moz-animation-name:diapo2;
+	-moz-animation-duration:6s;
+	-moz-animation-timing-function:linear;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-direction:normal;
+
+	background-image:url("images/diaporama-cargo.jpg");
+	animation-name:diapo2;
+	animation-duration:6s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-direction:normal
+
+}
+@-webkit-keyframes diapo2
+{
+	0%{background-image: url("images/diaporama-cargo.jpg");}
+	33%{background-image: url("images/cargo-2.jpg");}
+	66%{background-image: url("images/cargo-3.jpg");}
+	
+}
+
+@-moz-keyframes diapo2
+{
+	0%{background-image: url("images/diaporama-cargo.jpg");}
+	33%{background-image: url("images/cargo-2.jpg");}
+	66%{background-image: url("images/cargo-3.jpg");}
+	
+}
+
+@keyframes diapo1
+{
+	0%{background-image: url("images/diaporama-cargo.jpg");}
+	33%{background-image: url("images/cargo-2.jpg");}
+	66%{background-image: url("images/cargo-3.jpg");}
+	
+}
+
+
+
+
+
+
+
+section h3
+{
+	text-align: center;
+	color: green;
+	font-weight: bold;
+	margin-top: 10px;
+	
+
+}
+section p
+{
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 150px;
+}
+section .button
+{
+	margin-left: 500px;
+	margin-top: 200px;
+	color: white;
+	border: 1px solid green;
+	list-style: none;
+}
+/* FOOTER */
+footer
+{
+	border: 1px solid green;
+	height: 150px;
+	width: 100%;
+}
+
